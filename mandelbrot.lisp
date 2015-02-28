@@ -4,12 +4,12 @@
 
 ;;; "mandelbrot" goes here. Hacks and glory await!
 
-(defparameter *width* 300)
-(defparameter *height* 200)
+(defparameter *width* 800)
+(defparameter *height* 600)
 (defparameter *zoom* 0.35)
 (defparameter *move-x* 1.5)
 (defparameter *move-y* 1.4)
-(defparameter *max-iterations* 20)
+(defparameter *max-iterations* 300)
 
 
 (defun square (x)
